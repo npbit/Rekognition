@@ -9,6 +9,20 @@ Google Summer Of Code Project under CCExtractor Development
 
 ---
 This project aims at providing a free alternative to Amazon Rekognition services.
+The current version of the application supports the following features:-
+Face Recognition: The system uses biometrics to map facial features and compares that information with the database of known faces to find a match and hence identifying the identity of an individual using their face.
+Similar Face Search: The feature provides a high speed search of the input image from the stored dataset based on the facial features.
+NSFW Classifier: Not-Safe-For-Work(NSFW) works by filtering the not suitable images by classifying them on the predefined categories like violence, etc.
+Text Extraction: The feature extracts textual data from a digital image and converts it to it’s ASCII character that a computer can recognize.
+Object Detection: The feature detects, locate and trace the object from the input image.
+Scene Classification: This feature classifies a scene image to one of the predefined scene categories by comprehending the entire image.
+The application also supports analysis of Video data in the following features:
+ 1) Text detection in videos
+ 2) Scene classification in videos
+ 3) NSFW classification in videos
+ 4) VideoFR
+ 5) Object detection in videos
+ The results of the above features are similar to that in the case of Images since the model applies similar algorithms in the frames of the Video.
 
 
 ## Setup
